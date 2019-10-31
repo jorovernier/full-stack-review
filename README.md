@@ -3,6 +3,34 @@
 #
 ## Front-End (React)
 
+**Dependencies**
+- axios
+- redux
+- react-redux
+- react-router-dom
+- http-proxy-middleware
+- redux-promise-middleware
+- node-sass
+
+**Routes**
+- Login/Register => '/' => AuthComponent.js
+- Store => '/body_parts' => AvailableBodyParts.js
+- Profile => '/profile' => Profile.js
+
+**File Structure**
+- src/
+    - components/
+        - AuthComponent.js
+        - AvailableBodyParts.js
+        - Profile.js
+    - App.js
+    - index.js
+    - index.css => reset.css
+    - setupProxy.js
+    - ducks/
+        - store.js
+        - reducer.js
+
 #
 ## Back-End (Express)
 
@@ -19,7 +47,6 @@
     - index.js
     - controllers/
         - userController.js
-        - inventoryController.js
     - middleware/
         - sessionsCheck.js
 
